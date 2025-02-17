@@ -2229,6 +2229,246 @@
 				)
 			)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2782,6 +3022,64 @@
 		(color 0 0 0 0)
 		(uuid "f654cdf1-aa4a-4fb4-98c3-9eee7bbc459e")
 	)
+	(no_connect
+		(at 165.1 48.26)
+		(uuid "26fdbee6-55c1-4a2a-bcb9-b9b53d05821f")
+	)
+	(no_connect
+		(at 165.1 50.8)
+		(uuid "391b24b4-a6a6-4d22-9a0f-a93f704f7656")
+	)
+	(no_connect
+		(at 165.1 33.02)
+		(uuid "399521eb-3606-4fcf-9b38-8d2e4d70061c")
+	)
+	(no_connect
+		(at 149.86 78.74)
+		(uuid "5d2cad30-c636-43d8-8b20-38e973f81cd3")
+	)
+	(no_connect
+		(at 191.77 -21.59)
+		(uuid "664a0838-1c11-4ad5-854d-87da4f209716")
+	)
+	(no_connect
+		(at 147.32 78.74)
+		(uuid "83e5a626-5635-47f8-9024-2935d0857830")
+	)
+	(no_connect
+		(at 165.1 45.72)
+		(uuid "a5826d45-bebc-477e-9ead-f1793e049c49")
+	)
+	(no_connect
+		(at 165.1 38.1)
+		(uuid "a8d8ae0d-fd70-4499-9a1a-78ddfdf2cc7a")
+	)
+	(no_connect
+		(at 165.1 27.94)
+		(uuid "dc55b627-e174-4882-b4d0-a192e1dbdd9f")
+	)
+	(no_connect
+		(at 152.4 78.74)
+		(uuid "ecdfbe18-e78f-40e3-ba8c-b7c784081d72")
+	)
+	(no_connect
+		(at 165.1 43.18)
+		(uuid "f2336e2e-63c9-4fa3-864b-2593e10a75eb")
+	)
+	(no_connect
+		(at 205.74 -27.94)
+		(uuid "f955aec5-d521-42d1-9394-0c8cedc808aa")
+	)
+	(wire
+		(pts
+			(xy 123.19 25.4) (xy 116.84 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08824a96-f1eb-43c5-9c0e-f8e3ca3044a1")
+	)
 	(wire
 		(pts
 			(xy 71.12 133.35) (xy 83.82 133.35)
@@ -2884,7 +3182,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 -34.29) (xy 161.29 -30.48)
+			(xy 85.09 -34.29) (xy 85.09 -30.48)
 		)
 		(stroke
 			(width 0)
@@ -2914,7 +3212,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 -34.29) (xy 146.05 -30.48)
+			(xy 100.33 -34.29) (xy 100.33 -30.48)
 		)
 		(stroke
 			(width 0)
@@ -2964,7 +3262,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 -73.66) (xy 85.09 -69.85)
+			(xy 161.29 -73.66) (xy 161.29 -69.85)
 		)
 		(stroke
 			(width 0)
@@ -3004,7 +3302,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 -41.91) (xy 168.91 -22.86)
+			(xy 77.47 -41.91) (xy 77.47 -22.86)
 		)
 		(stroke
 			(width 0)
@@ -3034,7 +3332,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 -73.66) (xy 146.05 -69.85)
+			(xy 100.33 -73.66) (xy 100.33 -69.85)
 		)
 		(stroke
 			(width 0)
@@ -3124,7 +3422,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 -34.29) (xy 85.09 -30.48)
+			(xy 161.29 -34.29) (xy 161.29 -30.48)
 		)
 		(stroke
 			(width 0)
@@ -3214,6 +3512,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 11.43) (xy 185.42 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "502d5f2b-487b-4fbe-b178-be41ac23ec67")
+	)
+	(wire
+		(pts
 			(xy 66.04 85.09) (xy 66.04 102.87)
 		)
 		(stroke
@@ -3281,6 +3589,16 @@
 			(type default)
 		)
 		(uuid "584fa026-4278-4987-9475-f7da670bb6b3")
+	)
+	(wire
+		(pts
+			(xy 180.34 -22.86) (xy 168.91 -22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5951c44c-198c-4583-877e-4b21531e8ee8")
 	)
 	(wire
 		(pts
@@ -3384,6 +3702,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 41.91) (xy 101.6 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fecff56-3985-443d-b34d-4c3f88f251ba")
+	)
+	(wire
+		(pts
 			(xy 116.84 97.79) (xy 123.19 97.79)
 		)
 		(stroke
@@ -3424,7 +3752,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 -54.61) (xy 100.33 -49.53)
+			(xy 146.05 -54.61) (xy 146.05 -49.53)
 		)
 		(stroke
 			(width 0)
@@ -3444,7 +3772,27 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 -34.29) (xy 130.81 -30.48)
+			(xy 101.6 36.83) (xy 86.36 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c68014-593f-49ed-8d4f-4c5eaa1f69e0")
+	)
+	(wire
+		(pts
+			(xy 180.34 -80.01) (xy 180.34 -22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "785f4a1d-b957-4d40-a71d-b099bb0ecb16")
+	)
+	(wire
+		(pts
+			(xy 115.57 -34.29) (xy 115.57 -30.48)
 		)
 		(stroke
 			(width 0)
@@ -3474,7 +3822,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 -73.66) (xy 100.33 -69.85)
+			(xy 146.05 -73.66) (xy 146.05 -69.85)
 		)
 		(stroke
 			(width 0)
@@ -3564,7 +3912,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 -73.66) (xy 115.57 -69.85)
+			(xy 130.81 -73.66) (xy 130.81 -69.85)
 		)
 		(stroke
 			(width 0)
@@ -3574,7 +3922,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 -73.66) (xy 161.29 -69.85)
+			(xy 85.09 -73.66) (xy 85.09 -69.85)
 		)
 		(stroke
 			(width 0)
@@ -3584,7 +3932,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 -54.61) (xy 161.29 -49.53)
+			(xy 85.09 -54.61) (xy 85.09 -49.53)
 		)
 		(stroke
 			(width 0)
@@ -3604,6 +3952,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 11.43) (xy 185.42 11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99bd64b9-6ada-41fa-8e4c-2f21480e8923")
+	)
+	(wire
+		(pts
 			(xy 106.68 97.79) (xy 116.84 97.79)
 		)
 		(stroke
@@ -3614,7 +3972,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 -54.61) (xy 146.05 -49.53)
+			(xy 100.33 -54.61) (xy 100.33 -49.53)
 		)
 		(stroke
 			(width 0)
@@ -3661,6 +4019,16 @@
 			(type default)
 		)
 		(uuid "9fff37d4-10cb-4bab-98a7-e2e6b90d99d7")
+	)
+	(wire
+		(pts
+			(xy 191.77 -80.01) (xy 180.34 -80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0b4a535-5dcc-4947-bbfb-d0421d01812c")
 	)
 	(wire
 		(pts
@@ -3744,7 +4112,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 -34.29) (xy 100.33 -30.48)
+			(xy 146.05 -34.29) (xy 146.05 -30.48)
 		)
 		(stroke
 			(width 0)
@@ -3764,6 +4132,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 40.64) (xy 165.1 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2bae68a-5213-498a-a605-d5f39b7a640f")
+	)
+	(wire
+		(pts
 			(xy 243.84 115.57) (xy 231.14 115.57)
 		)
 		(stroke
@@ -3774,7 +4152,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 -54.61) (xy 85.09 -49.53)
+			(xy 161.29 -54.61) (xy 161.29 -49.53)
 		)
 		(stroke
 			(width 0)
@@ -3784,7 +4162,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 -73.66) (xy 130.81 -69.85)
+			(xy 115.57 -73.66) (xy 115.57 -69.85)
 		)
 		(stroke
 			(width 0)
@@ -3864,7 +4242,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 -54.61) (xy 130.81 -49.53)
+			(xy 115.57 -54.61) (xy 115.57 -49.53)
 		)
 		(stroke
 			(width 0)
@@ -3944,7 +4322,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 -54.61) (xy 115.57 -49.53)
+			(xy 130.81 -54.61) (xy 130.81 -49.53)
 		)
 		(stroke
 			(width 0)
@@ -4084,7 +4462,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 -34.29) (xy 115.57 -30.48)
+			(xy 130.81 -34.29) (xy 130.81 -30.48)
 		)
 		(stroke
 			(width 0)
@@ -4094,7 +4472,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 -81.28) (xy 168.91 -62.23)
+			(xy 77.47 -81.28) (xy 77.47 -62.23)
 		)
 		(stroke
 			(width 0)
@@ -4194,7 +4572,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 -62.23) (xy 77.47 -41.91)
+			(xy 168.91 -62.23) (xy 168.91 -41.91)
 		)
 		(stroke
 			(width 0)
@@ -4221,6 +4599,16 @@
 			(type default)
 		)
 		(uuid "f79d94f2-2f41-4fe2-8960-abc7622313ec")
+	)
+	(wire
+		(pts
+			(xy 86.36 36.83) (xy 86.36 11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7dd816a-01b5-47bf-b6fe-f8af197c82fc")
 	)
 	(wire
 		(pts
@@ -4262,6 +4650,16 @@
 		)
 		(uuid "fa1c8b76-4546-46c7-8794-57b59e410602")
 	)
+	(wire
+		(pts
+			(xy 168.91 25.4) (xy 165.1 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feedaf1d-983d-415c-b9fa-ac2c1ab64c16")
+	)
 	(global_label "R0"
 		(shape input)
 		(at 134.62 45.72 180)
@@ -4275,6 +4673,28 @@
 		(uuid "0ea73aea-3594-418d-8a4b-bfe462f856c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.1553 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "scl"
+		(shape input)
+		(at 198.12 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "121eb87a-ed99-4eb9-a4cc-b09e7b6ec22d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.3529 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4319,28 +4739,6 @@
 		(uuid "144e13da-22c9-403d-ba87-5b2e1ca87cd6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 233.68 70.9772 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "scl"
-		(shape input)
-		(at 91.44 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1ac64525-1565-45c0-93ae-597995717c4f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.2071 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4517,28 +4915,6 @@
 		(uuid "69bed324-7e9d-4381-a3e4-f59ecf78e294")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 223.52 70.7353 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "sda"
-		(shape input)
-		(at 91.44 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6b0ca1f2-ee12-450f-aea4-963e713cbf2a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.7513 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4746,28 +5122,6 @@
 			)
 		)
 	)
-	(global_label "c11"
-		(shape input)
-		(at 173.99 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a60d04e1-8b35-4f55-a23d-37530efd583b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.4828 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "R1"
 		(shape input)
 		(at 123.19 115.57 0)
@@ -4825,6 +5179,28 @@
 		(uuid "b56ee6c5-9c10-4df7-b880-6f94c470a4f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 170.5647 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ledhalf0"
+		(shape input)
+		(at 168.91 -81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b688073c-d78e-40a1-9ce5-01e5d334f79d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.6964 -81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4940,6 +5316,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "sda"
+		(shape input)
+		(at 198.12 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d19f9dc7-e920-4190-a6a1-4e5ba08ef938")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.8087 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5120,6 +5518,28 @@
 			)
 		)
 	)
+	(global_label "ledhalf0"
+		(shape input)
+		(at 165.1 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec06ea58-f16f-42f2-81c7-9b0ed9f401b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.8864 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "C0"
 		(shape input)
 		(at 134.62 58.42 180)
@@ -5256,7 +5676,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 114.3 138.43 0)
 			(effects
 				(font
@@ -5991,7 +6411,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 220.98 123.19 0)
 			(effects
 				(font
@@ -6147,7 +6567,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 81.28 87.63 0)
 			(effects
 				(font
@@ -6303,7 +6723,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 92.71 105.41 0)
 			(effects
 				(font
@@ -6340,6 +6760,73 @@
 			(project "mirakeeb"
 				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
 					(reference "S10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 168.91 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11cf312e-d13d-48f6-ac3d-7145b6c703e0")
+		(property "Reference" "#PWR023"
+			(at 165.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 172.72 25.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 168.91 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e5d5aad-9111-4ea1-bddc-55c7f5ee6e14")
+		)
+		(instances
+			(project ""
+				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6434,8 +6921,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 245.11 -87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11e3c82d-1169-4e35-ab02-eb316a6b8494")
+		(property "Reference" "#PWR034"
+			(at 245.11 -83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 245.11 -91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 245.11 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2820b47-8b06-4f09-a8a3-455037ef09a5")
+		)
+		(instances
+			(project "mirakeeb"
+				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 161.29 -81.28 0)
+		(at 85.09 -81.28 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6443,7 +6997,7 @@
 		(dnp no)
 		(uuid "15bdc9fd-f1af-4866-8de4-7110d85e069d")
 		(property "Reference" "D55"
-			(at 175.26 -87.5986 0)
+			(at 71.12 -87.5986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6451,7 +7005,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 175.26 -85.0586 0)
+			(at 71.12 -85.0586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6459,7 +7013,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 162.56 -73.66 0)
+			(at 83.82 -73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6469,7 +7023,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 163.83 -71.755 0)
+			(at 82.55 -71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6479,7 +7033,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 161.29 -81.28 0)
+			(at 85.09 -81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6510,7 +7064,8 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 100.33 -41.91 0)
+		(at 146.05 -41.91 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6519,7 +7074,7 @@
 		(fields_autoplaced yes)
 		(uuid "15f9827c-6989-4d92-97a1-b9aa03eb90e9")
 		(property "Reference" "D70"
-			(at 114.3 -48.2286 0)
+			(at 132.08 -48.2286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6527,7 +7082,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 114.3 -45.6886 0)
+			(at 132.08 -45.6886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6535,7 +7090,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 101.6 -34.29 0)
+			(at 144.78 -34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6545,7 +7100,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 102.87 -32.385 0)
+			(at 143.51 -32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6555,7 +7110,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 100.33 -41.91 0)
+			(at 146.05 -41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6964,7 +7519,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 187.96 87.63 0)
 			(effects
 				(font
@@ -7121,7 +7676,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 55.88 138.43 0)
 			(effects
 				(font
@@ -7277,7 +7832,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 92.71 123.19 0)
 			(effects
 				(font
@@ -7345,7 +7900,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 104.14 123.19 0)
 			(effects
 				(font
@@ -7413,7 +7968,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 81.28 105.41 0)
 			(effects
 				(font
@@ -7457,8 +8012,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 115.57 -22.86 0)
-		(mirror y)
+		(at 130.81 -22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7467,7 +8021,7 @@
 		(fields_autoplaced yes)
 		(uuid "2856b269-82e7-4550-8ebc-e11075216df8")
 		(property "Reference" "D75"
-			(at 101.6 -29.1786 0)
+			(at 144.78 -29.1786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7475,7 +8029,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 101.6 -26.6386 0)
+			(at 144.78 -26.6386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7483,7 +8037,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 114.3 -15.24 0)
+			(at 132.08 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7493,7 +8047,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 113.03 -13.335 0)
+			(at 133.35 -13.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7503,7 +8057,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 115.57 -22.86 0)
+			(at 130.81 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7527,6 +8081,73 @@
 			(project "mirakeeb"
 				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
 					(reference "D75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 115.57 -88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "290f38ea-486c-4a8e-888a-c93c34145caa")
+		(property "Reference" "#PWR028"
+			(at 115.57 -85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 115.57 -92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 -88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 -88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 115.57 -88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6219b3e5-a6dc-4a2c-89a0-d2afd3f3d21a")
+		)
+		(instances
+			(project "mirakeeb"
+				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -7559,7 +8180,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 198.12 105.41 0)
 			(effects
 				(font
@@ -7602,9 +8223,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 198.12 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29ba802f-47aa-4048-9ab5-d0cef2dbd1f7")
+		(property "Reference" "#PWR024"
+			(at 201.93 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 194.31 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 198.12 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52f432d2-f2b7-4381-9aaf-2a526432cf8f")
+		)
+		(instances
+			(project "mirakeeb"
+				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 146.05 -22.86 0)
-		(mirror y)
+		(at 100.33 -22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7613,7 +8300,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a4f8369-6f47-40ca-a4c4-8409748d0f41")
 		(property "Reference" "D71"
-			(at 132.08 -29.1786 0)
+			(at 114.3 -29.1786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7621,7 +8308,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 132.08 -26.6386 0)
+			(at 114.3 -26.6386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7629,7 +8316,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 144.78 -15.24 0)
+			(at 101.6 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7639,7 +8326,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 143.51 -13.335 0)
+			(at 102.87 -13.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7649,7 +8336,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 146.05 -22.86 0)
+			(at 100.33 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7907,9 +8594,75 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 115.57 -62.23 0)
+		(lib_id "power:+5V")
+		(at 146.05 -88.9 0)
 		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fdc5cff-5609-49db-8e1c-503bb1a586df")
+		(property "Reference" "#PWR026"
+			(at 146.05 -85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 146.05 -92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 -88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 -88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 146.05 -88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf2df447-45e9-4921-b81c-28070e3c4b0a")
+		)
+		(instances
+			(project "mirakeeb"
+				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
+		(at 130.81 -62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7918,7 +8671,7 @@
 		(fields_autoplaced yes)
 		(uuid "32466606-cd2f-4b9b-9fc4-6677aba1f7b6")
 		(property "Reference" "D65"
-			(at 101.6 -68.5486 0)
+			(at 144.78 -68.5486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7926,7 +8679,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 101.6 -66.0086 0)
+			(at 144.78 -66.0086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7934,7 +8687,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 114.3 -54.61 0)
+			(at 132.08 -54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7944,7 +8697,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 113.03 -52.705 0)
+			(at 133.35 -52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7954,7 +8707,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 115.57 -62.23 0)
+			(at 130.81 -62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8009,7 +8762,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 55.88 105.41 0)
 			(effects
 				(font
@@ -8388,7 +9141,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 55.88 123.19 0)
 			(effects
 				(font
@@ -8609,7 +9362,8 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 130.81 -81.28 0)
+		(at 115.57 -81.28 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8618,7 +9372,7 @@
 		(fields_autoplaced yes)
 		(uuid "3dca24e2-c109-44e2-9e45-603bbb61fc6c")
 		(property "Reference" "D53"
-			(at 144.78 -87.5986 0)
+			(at 101.6 -87.5986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8626,7 +9380,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 144.78 -85.0586 0)
+			(at 101.6 -85.0586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8634,7 +9388,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 132.08 -73.66 0)
+			(at 114.3 -73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8644,7 +9398,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 133.35 -71.755 0)
+			(at 113.03 -71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8654,7 +9408,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 130.81 -81.28 0)
+			(at 115.57 -81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8678,6 +9432,73 @@
 			(project "mirakeeb"
 				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
 					(reference "D53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 198.12 46.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3df093d4-98d3-4dff-8ed7-bfdf129af3a0")
+		(property "Reference" "#PWR022"
+			(at 191.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 46.9901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 198.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1de79e00-6b4f-4cf5-81d6-4995a732a27b")
+		)
+		(instances
+			(project "mirakeeb"
+				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8774,8 +9595,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 161.29 -62.23 0)
-		(mirror y)
+		(at 85.09 -62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8784,7 +9604,7 @@
 		(fields_autoplaced yes)
 		(uuid "43b5a5c2-45b8-4444-ad17-15597fff63f2")
 		(property "Reference" "D62"
-			(at 147.32 -68.5486 0)
+			(at 99.06 -68.5486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8792,7 +9612,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 147.32 -66.0086 0)
+			(at 99.06 -66.0086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8800,7 +9620,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 160.02 -54.61 0)
+			(at 86.36 -54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8810,7 +9630,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 158.75 -52.705 0)
+			(at 87.63 -52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8820,7 +9640,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 161.29 -62.23 0)
+			(at 85.09 -62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8927,8 +9747,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 130.81 -22.86 0)
-		(mirror y)
+		(at 115.57 -22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8937,7 +9756,7 @@
 		(fields_autoplaced yes)
 		(uuid "45fe37db-cb67-48bf-8a78-2d2f1093d07d")
 		(property "Reference" "D73"
-			(at 116.84 -29.1786 0)
+			(at 129.54 -29.1786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8945,7 +9764,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 116.84 -26.6386 0)
+			(at 129.54 -26.6386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8953,7 +9772,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 129.54 -15.24 0)
+			(at 116.84 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8963,7 +9782,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 128.27 -13.335 0)
+			(at 118.11 -13.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8973,7 +9792,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 130.81 -22.86 0)
+			(at 115.57 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9102,7 +9921,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 246.38 87.63 0)
 			(effects
 				(font
@@ -9171,7 +9990,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 220.98 87.63 0)
 			(effects
 				(font
@@ -9240,7 +10059,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 246.38 123.19 0)
 			(effects
 				(font
@@ -9464,7 +10283,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 198.12 138.43 0)
 			(effects
 				(font
@@ -9610,7 +10429,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 220.98 105.41 0)
 			(effects
 				(font
@@ -9678,7 +10497,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 81.28 138.43 0)
 			(effects
 				(font
@@ -9746,7 +10565,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 104.14 105.41 0)
 			(effects
 				(font
@@ -10032,7 +10851,8 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 161.29 -41.91 0)
+		(at 85.09 -41.91 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10040,7 +10860,7 @@
 		(dnp no)
 		(uuid "56034fc2-10bf-490a-a25d-3a377bfa51b4")
 		(property "Reference" "D78"
-			(at 175.26 -48.2286 0)
+			(at 71.12 -48.2286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10048,7 +10868,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 175.26 -45.6886 0)
+			(at 71.12 -45.6886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10056,7 +10876,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 162.56 -34.29 0)
+			(at 83.82 -34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10066,7 +10886,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 163.83 -32.385 0)
+			(at 82.55 -32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10076,7 +10896,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 161.29 -41.91 0)
+			(at 85.09 -41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10132,7 +10952,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 246.38 105.41 0)
 			(effects
 				(font
@@ -10201,7 +11021,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 209.55 105.41 0)
 			(effects
 				(font
@@ -10334,8 +11154,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 161.29 -22.86 0)
-		(mirror y)
+		(at 85.09 -22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10344,7 +11163,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a86c2b3-cd7f-4728-a680-37f6d10a38a0")
 		(property "Reference" "D69"
-			(at 147.32 -29.1786 0)
+			(at 99.06 -29.1786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10352,7 +11171,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 147.32 -26.6386 0)
+			(at 99.06 -26.6386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10360,7 +11179,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 160.02 -15.24 0)
+			(at 86.36 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10370,7 +11189,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 158.75 -13.335 0)
+			(at 87.63 -13.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10380,7 +11199,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 161.29 -22.86 0)
+			(at 85.09 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10404,6 +11223,72 @@
 			(project "mirakeeb"
 				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
 					(reference "D69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 229.87 -87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d6df186-4b7a-419c-ac86-60d39fb71db0")
+		(property "Reference" "#PWR033"
+			(at 229.87 -83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 229.87 -91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 229.87 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c75a034c-9e07-496f-8dc4-c96c89c32bd3")
+		)
+		(instances
+			(project "mirakeeb"
+				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10499,7 +11384,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 25.4 90)
+		(at 123.19 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10508,7 +11393,7 @@
 		(fields_autoplaced yes)
 		(uuid "6105de7a-76d9-4e25-bcf7-b64aa14153c6")
 		(property "Reference" "#PWR01"
-			(at 123.19 25.4 0)
+			(at 129.54 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10517,7 +11402,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 25.3999 90)
+			(at 127 25.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10526,7 +11411,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 25.4 0)
+			(at 123.19 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10535,7 +11420,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 25.4 0)
+			(at 123.19 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10544,7 +11429,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 25.4 0)
+			(at 123.19 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10679,7 +11564,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 209.55 123.19 0)
 			(effects
 				(font
@@ -10878,8 +11763,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 85.09 -22.86 0)
-		(mirror y)
+		(at 161.29 -22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10888,7 +11772,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c27e24d-3f53-46d3-a71a-282a8c65a7cd")
 		(property "Reference" "D79"
-			(at 71.12 -29.1786 0)
+			(at 175.26 -29.1786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10896,7 +11780,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 71.12 -26.6386 0)
+			(at 175.26 -26.6386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10904,7 +11788,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 83.82 -15.24 0)
+			(at 162.56 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10914,7 +11798,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 82.55 -13.335 0)
+			(at 163.83 -13.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10924,7 +11808,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 85.09 -22.86 0)
+			(at 161.29 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10948,6 +11832,73 @@
 			(project "mirakeeb"
 				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
 					(reference "D79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 100.33 -88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e52d9f6-05ef-4d29-a8d9-68e326272c8c")
+		(property "Reference" "#PWR029"
+			(at 100.33 -85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 100.33 -92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 -88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 -88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 100.33 -88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce73282d-cfb2-4c56-8fc5-171b1bac83db")
+		)
+		(instances
+			(project "mirakeeb"
+				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -10980,7 +11931,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 198.12 123.19 0)
 			(effects
 				(font
@@ -11048,7 +11999,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 92.71 87.63 0)
 			(effects
 				(font
@@ -11169,7 +12120,8 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 130.81 -41.91 0)
+		(at 115.57 -41.91 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11178,7 +12130,7 @@
 		(fields_autoplaced yes)
 		(uuid "7281abd9-fabf-4a54-8c4c-d1e7e3a2a786")
 		(property "Reference" "D74"
-			(at 144.78 -48.2286 0)
+			(at 101.6 -48.2286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11186,7 +12138,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 144.78 -45.6886 0)
+			(at 101.6 -45.6886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11194,7 +12146,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 132.08 -34.29 0)
+			(at 114.3 -34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11204,7 +12156,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 133.35 -32.385 0)
+			(at 113.03 -32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11214,7 +12166,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 130.81 -41.91 0)
+			(at 115.57 -41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11513,7 +12465,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 114.3 123.19 0)
 			(effects
 				(font
@@ -11646,7 +12598,8 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 100.33 -81.28 0)
+		(at 146.05 -81.28 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11655,7 +12608,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a0fc73b-2ff0-47dc-ac5a-d8610292a623")
 		(property "Reference" "D51"
-			(at 114.3 -87.5986 0)
+			(at 132.08 -87.5986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11663,7 +12616,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 114.3 -85.0586 0)
+			(at 132.08 -85.0586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11671,7 +12624,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 101.6 -73.66 0)
+			(at 144.78 -73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11681,7 +12634,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 102.87 -71.755 0)
+			(at 143.51 -71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11691,7 +12644,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 100.33 -81.28 0)
+			(at 146.05 -81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11722,7 +12675,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 -15.24 0)
+		(at 85.09 -15.24 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11731,7 +12685,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a4d3fc5-c733-4421-aa71-fa4e6884c1be")
 		(property "Reference" "#PWR015"
-			(at 161.29 -8.89 0)
+			(at 85.09 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11740,7 +12694,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 -8.89 0)
+			(at 85.09 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11748,7 +12702,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 -15.24 0)
+			(at 85.09 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11757,7 +12711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 -15.24 0)
+			(at 85.09 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11766,7 +12720,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 -15.24 0)
+			(at 85.09 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11900,7 +12854,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 92.71 138.43 0)
 			(effects
 				(font
@@ -11969,7 +12923,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 187.96 123.19 0)
 			(effects
 				(font
@@ -12013,7 +12967,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 -15.24 0)
+		(at 100.33 -15.24 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12022,7 +12977,7 @@
 		(fields_autoplaced yes)
 		(uuid "88cbe0e5-452b-41b8-be79-b173224a59ee")
 		(property "Reference" "#PWR014"
-			(at 146.05 -8.89 0)
+			(at 100.33 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12031,7 +12986,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 -8.89 0)
+			(at 100.33 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12039,7 +12994,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 -15.24 0)
+			(at 100.33 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12048,7 +13003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 -15.24 0)
+			(at 100.33 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12057,7 +13012,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 -15.24 0)
+			(at 100.33 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12232,8 +13187,76 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 97.79 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c8b3753-097f-42c5-8726-d38e9f037962")
+		(property "Reference" "#PWR037"
+			(at 101.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 93.98 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 97.79 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecbf0060-eaad-4d3c-8744-0d4bb5609279")
+		)
+		(instances
+			(project ""
+				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 85.09 -81.28 0)
+		(at 161.29 -81.28 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12242,7 +13265,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e77794a-dc6c-44ca-9e72-3897594c9f1b")
 		(property "Reference" "D50"
-			(at 99.06 -87.5986 0)
+			(at 147.32 -87.5986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12250,7 +13273,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 99.06 -85.0586 0)
+			(at 147.32 -85.0586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12258,7 +13281,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 86.36 -73.66 0)
+			(at 160.02 -73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12268,7 +13291,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 87.63 -71.755 0)
+			(at 158.75 -71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12278,7 +13301,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 85.09 -81.28 0)
+			(at 161.29 -81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12334,7 +13357,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 233.68 87.63 0)
 			(effects
 				(font
@@ -12402,7 +13425,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 104.14 87.63 0)
 			(effects
 				(font
@@ -12446,7 +13469,8 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 115.57 -81.28 0)
+		(at 130.81 -81.28 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12455,7 +13479,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f7a6d25-5dcb-4b34-8636-bf82ace50d0f")
 		(property "Reference" "D52"
-			(at 129.54 -87.5986 0)
+			(at 116.84 -87.5986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12463,7 +13487,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 129.54 -85.0586 0)
+			(at 116.84 -85.0586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12471,7 +13495,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 116.84 -73.66 0)
+			(at 129.54 -73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12481,7 +13505,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 118.11 -71.755 0)
+			(at 128.27 -71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12491,7 +13515,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 115.57 -81.28 0)
+			(at 130.81 -81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12521,17 +13545,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 85.09 -15.24 0)
+		(lib_id "power:+5V")
+		(at 199.39 -87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "92462646-dfe8-4a6a-a06f-dda1880bc7ce")
-		(property "Reference" "#PWR010"
-			(at 85.09 -8.89 0)
+		(uuid "8f8fde50-c377-49db-bcef-edbcc5c00e35")
+		(property "Reference" "#PWR031"
+			(at 199.39 -83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12539,8 +13563,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 85.09 -8.89 0)
+		(property "Value" "+5V"
+			(at 199.39 -91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12548,7 +13572,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 -15.24 0)
+			(at 199.39 -87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12557,7 +13581,148 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 -15.24 0)
+			(at 199.39 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 199.39 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eac26e2b-3247-4c40-bfc3-ae36b4077a2d")
+		)
+		(instances
+			(project "mirakeeb"
+				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:OLED_128x64")
+		(at 200.66 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91323841-0f88-43c6-a65a-b53606fc5d25")
+		(property "Reference" "J1"
+			(at 205.74 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OLED_128x64"
+			(at 205.74 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:OLED_128x64"
+			(at 214.63 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "08c547de-1cae-489c-b0f7-cba158c69fe7")
+		)
+		(pin "4"
+			(uuid "43a9fcd5-1413-4eeb-8514-80a59fa851e5")
+		)
+		(pin "2"
+			(uuid "54e9a32f-8c6b-4e55-8c8f-bbdd46b626f0")
+		)
+		(pin "1"
+			(uuid "703c4f0a-1331-4dda-bcab-5750e42c357b")
+		)
+		(instances
+			(project "mirakeeb"
+				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 -15.24 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92462646-dfe8-4a6a-a06f-dda1880bc7ce")
+		(property "Reference" "#PWR010"
+			(at 161.29 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12566,7 +13731,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 -15.24 0)
+			(at 161.29 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13033,7 +14198,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 233.68 105.41 0)
 			(effects
 				(font
@@ -13267,7 +14432,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 209.55 138.43 0)
 			(effects
 				(font
@@ -13335,7 +14500,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 104.14 138.43 0)
 			(effects
 				(font
@@ -13403,7 +14568,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 68.58 138.43 0)
 			(effects
 				(font
@@ -13447,7 +14612,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 -15.24 0)
+		(at 130.81 -15.24 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13456,7 +14622,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3a8848e-9235-4f13-8717-79f7b6ef6dc5")
 		(property "Reference" "#PWR012"
-			(at 115.57 -8.89 0)
+			(at 130.81 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13465,7 +14631,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 -8.89 0)
+			(at 130.81 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13473,7 +14639,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 -15.24 0)
+			(at 130.81 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13482,7 +14648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 -15.24 0)
+			(at 130.81 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13491,7 +14657,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 -15.24 0)
+			(at 130.81 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13537,7 +14703,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 68.58 87.63 0)
 			(effects
 				(font
@@ -13581,8 +14747,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 100.33 -62.23 0)
-		(mirror y)
+		(at 146.05 -62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13591,7 +14756,7 @@
 		(fields_autoplaced yes)
 		(uuid "a44c3ac0-7074-4751-acea-c9a28d33da5c")
 		(property "Reference" "D66"
-			(at 86.36 -68.5486 0)
+			(at 160.02 -68.5486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13599,7 +14764,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 86.36 -66.0086 0)
+			(at 160.02 -66.0086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13607,7 +14772,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 99.06 -54.61 0)
+			(at 147.32 -54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13617,7 +14782,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 97.79 -52.705 0)
+			(at 148.59 -52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13627,7 +14792,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 100.33 -62.23 0)
+			(at 146.05 -62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13806,80 +14971,6 @@
 			(project "mirakeeb"
 				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:OLED_128x64")
-		(at 88.9 50.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a52e5cc5-57ce-4eb4-b710-35c1fa5a2aa3")
-		(property "Reference" "J1"
-			(at 83.82 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OLED_128x64"
-			(at 83.82 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:OLED_128x64"
-			(at 74.93 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "7c0a5624-bbe3-432f-839f-0f0205e54ae1")
-		)
-		(pin "4"
-			(uuid "39ad673f-011c-4395-b983-0539c47a2533")
-		)
-		(pin "2"
-			(uuid "5224abcd-54af-40ed-a73c-8f30a49912e9")
-		)
-		(pin "1"
-			(uuid "4b438b03-493c-4338-8d56-2883095bc135")
-		)
-		(instances
-			(project "mirakeeb"
-				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -14167,7 +15258,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 209.55 87.63 0)
 			(effects
 				(font
@@ -14287,7 +15378,8 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 85.09 -41.91 0)
+		(at 161.29 -41.91 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14296,7 +15388,7 @@
 		(fields_autoplaced yes)
 		(uuid "acb64a66-8a5c-4516-8ae9-a0743f370194")
 		(property "Reference" "D68"
-			(at 99.06 -48.2286 0)
+			(at 147.32 -48.2286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14304,7 +15396,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 99.06 -45.6886 0)
+			(at 147.32 -45.6886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14312,7 +15404,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 86.36 -34.29 0)
+			(at 160.02 -34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14322,7 +15414,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 87.63 -32.385 0)
+			(at 158.75 -32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14332,7 +15424,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 85.09 -41.91 0)
+			(at 161.29 -41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14454,7 +15546,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 81.28 123.19 0)
 			(effects
 				(font
@@ -14491,6 +15583,73 @@
 			(project "mirakeeb"
 				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
 					(reference "S15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 161.29 -88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b02c8595-c812-49e1-9f2a-e4629b13ddad")
+		(property "Reference" "#PWR025"
+			(at 161.29 -85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 161.29 -92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 -88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 -88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 161.29 -88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be5dc5bc-2628-4f4f-9a3e-bf12a1afb1f4")
+		)
+		(instances
+			(project "mirakeeb"
+				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -14675,8 +15834,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 260.35 -87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5130ece-f494-4a1f-b8a3-7622b2425480")
+		(property "Reference" "#PWR035"
+			(at 260.35 -83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 260.35 -91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 260.35 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9677a858-9771-4d93-993e-2c103fc5a21f")
+		)
+		(instances
+			(project "mirakeeb"
+				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 115.57 -41.91 0)
+		(at 130.81 -41.91 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14685,7 +15911,7 @@
 		(fields_autoplaced yes)
 		(uuid "b79289e1-560d-4608-84fe-6c4f39d43b32")
 		(property "Reference" "D72"
-			(at 129.54 -48.2286 0)
+			(at 116.84 -48.2286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14693,7 +15919,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 129.54 -45.6886 0)
+			(at 116.84 -45.6886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14701,7 +15927,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 116.84 -34.29 0)
+			(at 129.54 -34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14711,7 +15937,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 118.11 -32.385 0)
+			(at 128.27 -32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14721,7 +15947,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 115.57 -41.91 0)
+			(at 130.81 -41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14752,8 +15978,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 85.09 -62.23 0)
-		(mirror y)
+		(at 161.29 -62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14762,7 +15987,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8394541-c72b-4036-bf9c-f36912a075b8")
 		(property "Reference" "D67"
-			(at 71.12 -68.5486 0)
+			(at 175.26 -68.5486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14770,7 +15995,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 71.12 -66.0086 0)
+			(at 175.26 -66.0086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14778,7 +16003,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 83.82 -54.61 0)
+			(at 162.56 -54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14788,7 +16013,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 82.55 -52.705 0)
+			(at 163.83 -52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14798,7 +16023,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 85.09 -62.23 0)
+			(at 161.29 -62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14911,6 +16136,73 @@
 			(project "mirakeeb"
 				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
 					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 130.81 -88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be3717a1-c8d1-496c-a195-18b7661195b9")
+		(property "Reference" "#PWR027"
+			(at 130.81 -85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 130.81 -92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 -88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 -88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 130.81 -88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b152c34f-f6dd-481f-8afb-e6dc867faee1")
+		)
+		(instances
+			(project "mirakeeb"
+				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -15152,6 +16444,72 @@
 			(project "mirakeeb"
 				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
 					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 275.59 -87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c40cf2bc-bf45-4353-ad1b-ed6c341dcb86")
+		(property "Reference" "#PWR036"
+			(at 275.59 -83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 275.59 -91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 275.59 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "140e63ff-b92f-4add-a6fe-3593837d359c")
+		)
+		(instances
+			(project "mirakeeb"
+				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -15578,8 +16936,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 146.05 -62.23 0)
-		(mirror y)
+		(at 100.33 -62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15588,7 +16945,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd9332d9-ba4b-4cee-9ff7-54b510a99078")
 		(property "Reference" "D63"
-			(at 132.08 -68.5486 0)
+			(at 114.3 -68.5486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15596,7 +16953,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 132.08 -66.0086 0)
+			(at 114.3 -66.0086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15604,7 +16961,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 144.78 -54.61 0)
+			(at 101.6 -54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15614,7 +16971,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 143.51 -52.705 0)
+			(at 102.87 -52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15624,7 +16981,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 146.05 -62.23 0)
+			(at 100.33 -62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15768,7 +17125,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 198.12 87.63 0)
 			(effects
 				(font
@@ -16030,7 +17387,8 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 146.05 -41.91 0)
+		(at 100.33 -41.91 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16039,7 +17397,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2cc9630-6870-4348-925a-55676cd8d2e0")
 		(property "Reference" "D76"
-			(at 160.02 -48.2286 0)
+			(at 86.36 -48.2286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16047,7 +17405,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 160.02 -45.6886 0)
+			(at 86.36 -45.6886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16055,7 +17413,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 147.32 -34.29 0)
+			(at 99.06 -34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16065,7 +17423,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 148.59 -32.385 0)
+			(at 97.79 -32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16075,7 +17433,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 146.05 -41.91 0)
+			(at 100.33 -41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16099,6 +17457,140 @@
 			(project "mirakeeb"
 				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
 					(reference "D76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 85.09 -88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3f7026c-21dd-46c3-9f1f-9ad6e5204b41")
+		(property "Reference" "#PWR030"
+			(at 85.09 -85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 85.09 -92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 -88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 -88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 85.09 -88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f166652-eec4-46ad-841c-69e3106c653d")
+		)
+		(instances
+			(project "mirakeeb"
+				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 165.1 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d445c16d-02e1-48ba-8cea-2ee656fd68ce")
+		(property "Reference" "#PWR038"
+			(at 161.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 168.91 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 165.1 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9ee47f8-ac3b-46a4-8a45-fa993a8eaf34")
+		)
+		(instances
+			(project "mirakeeb"
+				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -16218,7 +17710,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 55.88 87.63 0)
 			(effects
 				(font
@@ -16262,7 +17754,8 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 146.05 -81.28 0)
+		(at 100.33 -81.28 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16271,7 +17764,7 @@
 		(fields_autoplaced yes)
 		(uuid "d86f7a53-a0bb-4c3f-9bd6-9986e3a74b42")
 		(property "Reference" "D54"
-			(at 160.02 -87.5986 0)
+			(at 86.36 -87.5986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16279,7 +17772,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 160.02 -85.0586 0)
+			(at 86.36 -85.0586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16287,7 +17780,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 147.32 -73.66 0)
+			(at 99.06 -73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16297,7 +17790,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 148.59 -71.755 0)
+			(at 97.79 -71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16307,7 +17800,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 146.05 -81.28 0)
+			(at 100.33 -81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16338,8 +17831,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 130.81 -62.23 0)
-		(mirror y)
+		(at 115.57 -62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16348,7 +17840,7 @@
 		(fields_autoplaced yes)
 		(uuid "d952f60f-eb9a-45c3-ad91-73a20982a8b7")
 		(property "Reference" "D64"
-			(at 116.84 -68.5486 0)
+			(at 129.54 -68.5486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16356,7 +17848,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 116.84 -66.0086 0)
+			(at 129.54 -66.0086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16364,7 +17856,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 129.54 -54.61 0)
+			(at 116.84 -54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16374,7 +17866,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 128.27 -52.705 0)
+			(at 118.11 -52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16384,7 +17876,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 130.81 -62.23 0)
+			(at 115.57 -62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16693,7 +18185,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 113.03 43.434 0)
 			(effects
 				(font
@@ -16746,8 +18238,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
-		(at 100.33 -22.86 0)
-		(mirror y)
+		(at 146.05 -22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16756,7 +18247,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2bb4efb-c755-4bbd-ac26-cfa3fcd3ab31")
 		(property "Reference" "D77"
-			(at 86.36 -29.1786 0)
+			(at 160.02 -29.1786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16764,7 +18255,7 @@
 			)
 		)
 		(property "Value" "LED_SK6812MINI"
-			(at 86.36 -26.6386 0)
+			(at 160.02 -26.6386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16772,7 +18263,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 99.06 -15.24 0)
+			(at 147.32 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16782,7 +18273,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 97.79 -13.335 0)
+			(at 148.59 -13.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16792,7 +18283,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 100.33 -22.86 0)
+			(at 146.05 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16847,7 +18338,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 68.58 105.41 0)
 			(effects
 				(font
@@ -17071,7 +18562,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 114.3 87.63 0)
 			(effects
 				(font
@@ -17140,7 +18631,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 246.38 138.43 0)
 			(effects
 				(font
@@ -17250,7 +18741,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 -15.24 0)
+		(at 146.05 -15.24 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17259,7 +18751,7 @@
 		(fields_autoplaced yes)
 		(uuid "e91334c2-6b4a-40c3-8cc5-4fad56b8c9ab")
 		(property "Reference" "#PWR011"
-			(at 100.33 -8.89 0)
+			(at 146.05 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17268,7 +18760,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 -8.89 0)
+			(at 146.05 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17276,7 +18768,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 -15.24 0)
+			(at 146.05 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17285,7 +18777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 -15.24 0)
+			(at 146.05 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17294,7 +18786,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 -15.24 0)
+			(at 146.05 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17341,7 +18833,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 233.68 123.19 0)
 			(effects
 				(font
@@ -17409,7 +18901,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 114.3 105.41 0)
 			(effects
 				(font
@@ -17478,7 +18970,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 233.68 138.43 0)
 			(effects
 				(font
@@ -17522,7 +19014,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 -15.24 0)
+		(at 115.57 -15.24 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17531,7 +19024,7 @@
 		(fields_autoplaced yes)
 		(uuid "f15b80a8-afb8-4043-9bfa-7c18dce2b89a")
 		(property "Reference" "#PWR013"
-			(at 130.81 -8.89 0)
+			(at 115.57 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17540,7 +19033,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 -8.89 0)
+			(at 115.57 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17548,7 +19041,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 -15.24 0)
+			(at 115.57 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17557,7 +19050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 -15.24 0)
+			(at 115.57 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17566,7 +19059,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 -15.24 0)
+			(at 115.57 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17689,7 +19182,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 220.98 138.43 0)
 			(effects
 				(font
@@ -17757,7 +19250,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 68.58 123.19 0)
 			(effects
 				(font
@@ -17903,7 +19396,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 187.96 105.41 0)
 			(effects
 				(font
@@ -17972,7 +19465,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB"
 			(at 187.96 138.43 0)
 			(effects
 				(font
@@ -18173,6 +19666,72 @@
 			(project "mirakeeb"
 				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
 					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 214.63 -87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff8c731f-7caf-4ab7-870a-41d5cba30f7f")
+		(property "Reference" "#PWR032"
+			(at 214.63 -83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 214.63 -91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 214.63 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f1e7bf4-4595-4e05-aca2-df9d36731f45")
+		)
+		(instances
+			(project "mirakeeb"
+				(path "/8277691d-c00a-45fa-b2a7-9b6ed0a23b33"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
