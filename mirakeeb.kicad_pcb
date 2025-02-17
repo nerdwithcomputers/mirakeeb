@@ -41,6 +41,7 @@
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(grid_origin 126.04 51.19)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -13044,7 +13045,7 @@
 	(footprint "ScottoKeebs_MX:MX_PCB"
 		(layer "F.Cu")
 		(uuid "50d43666-2008-4570-86e4-2ab18de6b077")
-		(at 133.29 102.12)
+		(at 133.29 58.44)
 		(descr "MX keyswitch PCB Mount")
 		(tags "MX Keyboard Keyswitch Switch PCB Cutout")
 		(property "Reference" "S4"
@@ -19208,7 +19209,7 @@
 	(footprint "ScottoKeebs_MX:MX_PCB"
 		(layer "F.Cu")
 		(uuid "72713c59-928b-4399-a4d3-aeaa6a03ab55")
-		(at 104.2 102.13)
+		(at 61.78 110.04)
 		(descr "MX keyswitch PCB Mount")
 		(tags "MX Keyboard Keyswitch Switch PCB Cutout")
 		(property "Reference" "S12"
@@ -22254,7 +22255,7 @@
 	(footprint "ScottoKeebs_MX:MX_PCB"
 		(layer "F.Cu")
 		(uuid "7f038554-388f-471d-9deb-51a70e4937cb")
-		(at 133.29 87.55)
+		(at 133.29 89.64)
 		(descr "MX keyswitch PCB Mount")
 		(tags "MX Keyboard Keyswitch Switch PCB Cutout")
 		(property "Reference" "S3"
@@ -25806,7 +25807,7 @@
 	(footprint "ScottoKeebs_MX:MX_PCB"
 		(layer "F.Cu")
 		(uuid "94d9be54-8444-44c7-9404-ed53931a5fe7")
-		(at 118.73 102.11)
+		(at 76.31 110.04)
 		(descr "MX keyswitch PCB Mount")
 		(tags "MX Keyboard Keyswitch Switch PCB Cutout")
 		(property "Reference" "S8"
@@ -30752,7 +30753,7 @@
 	(footprint "ScottoKeebs_MX:MX_PCB"
 		(layer "F.Cu")
 		(uuid "af8a87b1-ea02-46c9-bcd9-f087127b8cb6")
-		(at 118.73 73)
+		(at 76.325 80.95)
 		(descr "MX keyswitch PCB Mount")
 		(tags "MX Keyboard Keyswitch Switch PCB Cutout")
 		(property "Reference" "S6"
@@ -31722,7 +31723,7 @@
 	(footprint "ScottoKeebs_MX:MX_PCB"
 		(layer "F.Cu")
 		(uuid "b28fd542-b0d4-49f6-8622-421a7f1c49f5")
-		(at 133.29 73)
+		(at 133.29 73.23)
 		(descr "MX keyswitch PCB Mount")
 		(tags "MX Keyboard Keyswitch Switch PCB Cutout")
 		(property "Reference" "S2"
@@ -32440,7 +32441,7 @@
 	(footprint "ScottoKeebs_MX:MX_PCB"
 		(layer "F.Cu")
 		(uuid "b499ee8a-ef63-4daf-b9f5-7146c570094a")
-		(at 118.73 87.55)
+		(at 76.31 95.48)
 		(descr "MX keyswitch PCB Mount")
 		(tags "MX Keyboard Keyswitch Switch PCB Cutout")
 		(property "Reference" "S7"
@@ -32734,7 +32735,7 @@
 	(footprint "ScottoKeebs_MX:MX_PCB"
 		(layer "F.Cu")
 		(uuid "b554396b-b920-4179-bbd8-4cb0d1375838")
-		(at 104.2 73.02)
+		(at 61.78 80.95)
 		(descr "MX keyswitch PCB Mount")
 		(tags "MX Keyboard Keyswitch Switch PCB Cutout")
 		(property "Reference" "S10"
@@ -36462,7 +36463,7 @@
 	(footprint "ScottoKeebs_MX:MX_PCB"
 		(layer "F.Cu")
 		(uuid "cfecb14b-a143-46fb-b768-7c0715a61667")
-		(at 118.73 58.44)
+		(at 76.31 66.37)
 		(descr "MX keyswitch PCB Mount")
 		(tags "MX Keyboard Keyswitch Switch PCB Cutout")
 		(property "Reference" "S5"
@@ -37942,7 +37943,7 @@
 	(footprint "ScottoKeebs_MX:MX_PCB"
 		(layer "F.Cu")
 		(uuid "d4701ee0-e7dd-4d8e-b2b0-e37fa8503c87")
-		(at 104.2 87.57)
+		(at 61.78 95.48)
 		(descr "MX keyswitch PCB Mount")
 		(tags "MX Keyboard Keyswitch Switch PCB Cutout")
 		(property "Reference" "S11"
@@ -40306,7 +40307,7 @@
 	(footprint "ScottoKeebs_MX:MX_PCB"
 		(layer "F.Cu")
 		(uuid "e11888a9-cf78-41e2-b6a4-a7d4e6dc598a")
-		(at 104.2 58.46)
+		(at 61.78 66.37)
 		(descr "MX keyswitch PCB Mount")
 		(tags "MX Keyboard Keyswitch Switch PCB Cutout")
 		(property "Reference" "S9"
